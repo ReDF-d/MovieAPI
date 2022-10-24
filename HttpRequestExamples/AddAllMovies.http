@@ -1,0 +1,21 @@
+POST http://localhost:8080/movie-api/addAll
+Content-Type: application/json
+
+{ "movies" :
+[
+    {
+        "name" : "test1",
+        "description" : "test-description",
+        "type" : "Сериал",
+        "genre" : "Драма",
+        "releaseDate": "10-01-1999"
+    },
+    {
+        "name" : "test2",
+        "description" : "test-description",
+        "type" : "Полнометражный",
+        "genre" : "Боевик",
+        "releaseDate": "07-08-2019"
+    }
+]
+}

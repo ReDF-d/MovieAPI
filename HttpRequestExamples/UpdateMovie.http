@@ -1,0 +1,12 @@
+PATCH http://localhost:8080/movie-api/update
+Content-Type: application/json
+
+{
+  "id" : "1",
+  "name" : "test1",
+  "description" : "Updated description",
+  "type" : "Полнометражный",
+  "genre" : "Комедия",
+  "releaseDate": "28-07-2005"
+
+}
